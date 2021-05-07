@@ -1,10 +1,11 @@
 {
   "name": "prettylist",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Pretty Lists",
   "main": "dist/index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "watch": "webpack --config webpack.config.js --watch"
   },
   "repository": {
     "type": "git",
