@@ -14,8 +14,11 @@ module.exports = {
     ],
   },
   output: {
-    path: `${__dirname}`,
+    path: `${__dirname}/dist`,
     filename: 'index.js',
     libraryTarget: 'commonjs2',
-  }
+  },
+  resolve: {
+    extensions: ['.js'],
+  },
 };

@@ -2,7 +2,7 @@
   "name": "prettylist",
   "version": "1.0.2",
   "description": "Pretty Lists",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "webpack"
   },
@@ -22,9 +22,7 @@
     "sass-loader": "^11.0.1",
     "style-loader": "^2.0.0",
     "webpack": "^5.36.2",
-    "webpack-cli": "^4.7.0"
-  },
-  "dependencies": {
+    "webpack-cli": "^4.7.0",
     "node-sass": "^5.0.0"
   }
 }
