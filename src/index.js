@@ -76,7 +76,7 @@ export default class PrettyList {
 
       const rotation = this.options.rotation * ((this.options.visible - 1) * 0.5) - this.options.rotation * i;
       item.style.setProperty('--rotation', rotation + "deg");
-
+      
       const top = (100 / (this.options.visible + 1)) * (i + 1);
       item.style.setProperty('--top', top + "%");
 
