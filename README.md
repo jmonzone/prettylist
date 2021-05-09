@@ -2,6 +2,8 @@
 
 A package to make lists "prettier"<br>  
 
+Live Demo: https://jmonzone.github.io/assets/websites/prettylist/index.html<br>
+
 #### Usage:
 
 ```

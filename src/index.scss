@@ -11,12 +11,10 @@
     --rotation: 0deg;
     --opacity: 1;
 
-    top: var(--top);
-    left: var(--left);
-    transform: rotateZ(var(--rotation)) translateY(-50%);
+    transform: translateY(calc(var(--top) - 50%)) translateX(calc(var(--left) - 50%)) rotate(var(--rotation));
     opacity: var(--opacity);
 
-    transition: transform 1s, top 1s, left 1s, opacity 1s;
+    transition: opacity 1s;
 
     &.hidden {
       opacity: 0;
